@@ -8,4 +8,4 @@ for i in range(len(nums) - 1):
 
 mean = sum(diff_list) / len(diff_list)
 
-print(round(mean, 1))
+print(f'M: {round(mean, 1)}')
